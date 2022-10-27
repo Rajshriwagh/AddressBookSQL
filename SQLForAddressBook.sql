@@ -27,4 +27,7 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
 
 select * from addressbook;
 update addressbook set city='Houston' where id=3;
+
+select * from addressbook;
+delete from addressbook where id=3;
  
