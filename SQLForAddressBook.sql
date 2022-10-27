@@ -31,3 +31,5 @@ update addressbook set city='Houston' where id=3;
 select * from addressbook;
 delete from addressbook where id=3;
  
+select * from addressbook where state='Maharashtra';
+select * from addressbook where city='Mumbai';
