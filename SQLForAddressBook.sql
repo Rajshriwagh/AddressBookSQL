@@ -19,7 +19,6 @@ create table addressbook(
 );
 
 show tables;
-
 describe addressbook;
 insert into addressbook (first_name,last_name,address,city,state,zip,phone_number,email)
  values ('Rajshri','Wagh','Shivcolony','Vadodara','Gujarat',424002,9475816,'raj@gmail.com'),
@@ -27,3 +26,5 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
  ('jenny','Potter','XYZ','LA','California',456123,641356,'jenny@gmail.com');
 
 select * from addressbook;
+update addressbook set city='Houston' where id=3;
+ 
