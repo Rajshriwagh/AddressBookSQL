@@ -47,4 +47,11 @@ values ('bhagi','Patil','Wayle Nagar','Mumbai','Maharashtra',444002,45463213,'bh
 ('Anna','Wallise','pqr','Albany','New York',789456,654561,'anna@gmail.com');
 
 select Count(*) from addressbook where city='Nashik' and state='Maharashtra';
+
+insert into addressbook (first_name,last_name,address,city,state,zip,phone_number,email)
+values ('Abhishek','Sharma','Dwarka Road','Nashik','Maharashtra',444002,45463213,'shubhangi@gmail.com');
+
+select * from addressbook;
+
+select * from addressbook where city='Nashik' order by first_name;
  
