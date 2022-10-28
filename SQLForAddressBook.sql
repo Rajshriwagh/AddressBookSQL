@@ -54,4 +54,7 @@ values ('Abhishek','Sharma','Dwarka Road','Nashik','Maharashtra',444002,45463213
 select * from addressbook;
 
 select * from addressbook where city='Nashik' order by first_name;
+alter table addressbook add type varchar(150) after last_name;
+
+describe addressbook;
  
