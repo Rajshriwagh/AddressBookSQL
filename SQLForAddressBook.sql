@@ -33,3 +33,18 @@ delete from addressbook where id=3;
  
 select * from addressbook where state='Maharashtra';
 select * from addressbook where city='Mumbai';
+
+delete from addressbook where first_name='Taksh';
+select * from addressbook;
+
+update addressbook
+set address='FC Road'
+where first_name='Rajshri';
+
+insert into addressbook (first_name,last_name,address,city,state,zip,phone_number,email)
+values ('bhagi','Patil','Wayle Nagar','Mumbai','Maharashtra',444002,45463213,'bhagi@gmail.com'),
+('raj','Nikam','Shaalimar Nagar','Nashik','Maharashtra',651006,2314899,'raj@gmail.com'),
+('Anna','Wallise','pqr','Albany','New York',789456,654561,'anna@gmail.com');
+
+select Count(*) from addressbook where city='Nashik' and state='Maharashtra';
+ 
