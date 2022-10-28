@@ -60,4 +60,9 @@ describe addressbook;
 update addressbook set type='profession' where first_name='Anna' or first_name='Rajshri';
 
 select count(type) as Count,type from addressbook group by type;
+update addressbook set type='friends' where first_name='Anna';
+ 
+update addressbook set type='family' where first_name='raj';
+
+select * from addressbook;
  
